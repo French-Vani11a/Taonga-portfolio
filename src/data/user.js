@@ -68,7 +68,7 @@ const INFO = {
 				"Developed a personal portfolio site using React to showcase professional experience, skills, and certifications. Designed for responsiveness and performance, with clean code and reusable components.",
 			logo: "react.svg",
 			linkText: "View Project",
-			link: "https://github.com/French-Vani11a/reactfolio.git",
+			link: "https://github.com/French-Vani11a/Taonga-portfolio.git",
 		},
 
 		{
