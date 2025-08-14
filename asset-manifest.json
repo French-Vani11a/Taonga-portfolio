@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Taonga-portfolio/static/css/main.3825c53a.css",
-    "main.js": "/Taonga-portfolio/static/js/main.40b873a8.js",
-    "static/js/787.512dd3f2.chunk.js": "/Taonga-portfolio/static/js/787.512dd3f2.chunk.js",
-    "index.html": "/Taonga-portfolio/index.html",
-    "main.3825c53a.css.map": "/Taonga-portfolio/static/css/main.3825c53a.css.map",
-    "main.40b873a8.js.map": "/Taonga-portfolio/static/js/main.40b873a8.js.map",
-    "787.512dd3f2.chunk.js.map": "/Taonga-portfolio/static/js/787.512dd3f2.chunk.js.map"
+    "main.css": "./static/css/main.7c65d683.css",
+    "main.js": "./static/js/main.0195922c.js",
+    "static/js/787.512dd3f2.chunk.js": "./static/js/787.512dd3f2.chunk.js",
+    "index.html": "./index.html",
+    "main.7c65d683.css.map": "./static/css/main.7c65d683.css.map",
+    "main.0195922c.js.map": "./static/js/main.0195922c.js.map",
+    "787.512dd3f2.chunk.js.map": "./static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3825c53a.css",
-    "static/js/main.40b873a8.js"
+    "static/css/main.7c65d683.css",
+    "static/js/main.0195922c.js"
   ]
 }
