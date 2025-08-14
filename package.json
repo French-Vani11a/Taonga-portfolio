@@ -28,7 +28,7 @@
 		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},
-	"homepage": "https://french-vani11a.github.io/Taonga-portfolio/",
+	"homepage": ".",
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
