@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Taonga-portfolio/static/css/main.3825c53a.css",
-    "main.js": "/Taonga-portfolio/static/js/main.ccc0adc9.js",
+    "main.js": "/Taonga-portfolio/static/js/main.40b873a8.js",
     "static/js/787.512dd3f2.chunk.js": "/Taonga-portfolio/static/js/787.512dd3f2.chunk.js",
     "index.html": "/Taonga-portfolio/index.html",
     "main.3825c53a.css.map": "/Taonga-portfolio/static/css/main.3825c53a.css.map",
-    "main.ccc0adc9.js.map": "/Taonga-portfolio/static/js/main.ccc0adc9.js.map",
+    "main.40b873a8.js.map": "/Taonga-portfolio/static/js/main.40b873a8.js.map",
     "787.512dd3f2.chunk.js.map": "/Taonga-portfolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3825c53a.css",
-    "static/js/main.ccc0adc9.js"
+    "static/js/main.40b873a8.js"
   ]
 }
