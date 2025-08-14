@@ -40,8 +40,8 @@ const INFO = {
 			description:
 				"Led and supported the deployment of Sage Intacct and Palladium ERP systems for small to medium-sized enterprises, including configuration, data migration, and end-user training. Improved operational efficiency by streamlining accounting and HR processes.",
 			logo: "sage.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "CyteERP Systems",
+			link: "",
 		},
 
 		{
@@ -68,7 +68,7 @@ const INFO = {
 				"Developed a personal portfolio site using React to showcase professional experience, skills, and certifications. Designed for responsiveness and performance, with clean code and reusable components.",
 			logo: "react.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/French-Vani11a/reactfolio.git",
 		},
 
 		{
