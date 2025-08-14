@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
 import About from "./pages/about";
 import Projects from "./pages/projects";
+import Articles from "./pages/articles";
 import Certificates from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
@@ -21,20 +22,18 @@ function App() {
 	}, []);
 
 	return (
-		<Router>
-			<div className="App">
-				<Routes>
-					<Route path="/" element={<Homepage />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/projects" element={<Projects />} />
-					<Route path="/articles" element={<Certificates />} />
-					 <Route path="/certificates" element={<Certificates />} />
-					<Route path="/article/:slug" element={<ReadArticle />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="*" element={<Notfound />} />
-				</Routes>
-			</div>
-		</Router>
+		<div className="App">
+			<Routes>
+				<Route path="/" element={<Homepage />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/projects" element={<Projects />} />
+				<Route path="/articles" element={<Articles />} />
+				<Route path="/article/:slug" element={<ReadArticle />} />
+				   <Route path="/certificates" element={<Certificates />} />
+				<Route path="/contact" element={<Contact />} />
+				<Route path="*" element={<Notfound />} />
+			</Routes>
+		</div>
 	);
 }
 
