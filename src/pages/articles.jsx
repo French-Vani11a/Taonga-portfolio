@@ -78,16 +78,16 @@ const Articles = () => {
 						<div className="articles-container">
 							<div className="articles-wrapper">
 								
-								<Certificates image={process.env.PUBLIC_URL +'Diploma.png'} zita={'Diploma In Software Engineering'}/>
-								<Certificates image={process.env.PUBLIC_URL +'Transcript.png'} zita={'School Transcript'}/>
-								<Certificates image={process.env.PUBLIC_URL +'O-level-Nov.png'} zita={'O-Level Certificate'}/>
-								<Certificates image={process.env.PUBLIC_URL +'O-level-June.png'} zita={'O-Level Certificate 2'}/>
-								<Certificates image={process.env.PUBLIC_URL +'Sage-Intact.png'} zita={'Sage Intacct Implementation'}/>
-								<Certificates image={process.env.PUBLIC_URL +'Sage-Intact-Accounting.png'} zita={'Sage Intacct Accounting'}/>
-								<Certificates image={process.env.PUBLIC_URL +'Sdmo.png'} zita={'Sage Distribution and Management Operations'}/>
-								<Certificates image={process.env.PUBLIC_URL +'Palladium.png'} zita={'Palladium Accounting Certificate'}/>
-								<Certificates image={process.env.PUBLIC_URL +'Payspace.png'} zita={'Payspace Advanced Features Certificate'}/>
-								<Certificates image={process.env.PUBLIC_URL +'license.png'} zita={'Class 4 Drivers License'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/Diploma.png'} zita={'Diploma In Software Engineering'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/Transcript.png'} zita={'School Transcript'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/O-level-Nov.png'} zita={'O-Level Certificate'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/O-level-June.png'} zita={'O-Level Certificate 2'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/Sage-Intact.png'} zita={'Sage Intacct Implementation'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/Sage-Intact-Accounting.png'} zita={'Sage Intacct Accounting'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/Sdmo.png'} zita={'Sage Distribution and Management Operations'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/Palladium.png'} zita={'Palladium Accounting Certificate'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/Payspace.png'} zita={'Payspace Advanced Features Certificate'}/>
+								<Certificates image={process.env.PUBLIC_URL +'/license.png'} zita={'Class 4 Drivers License'}/>
 
 							</div>
 						</div>
