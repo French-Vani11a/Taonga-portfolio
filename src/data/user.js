@@ -3,7 +3,7 @@ const INFO = {
 		title: "Taonga Nhambi Portfolio",
 		name: "Taonga Nhambi",
 		email: "nhambitaonga@gmail.com",
-		logo: "../logo.png",
+		logo: process.env.PUBLIC_URL +"/logo.png",
 		phone: "+263 77 262 1850",
 	},
 
@@ -39,7 +39,7 @@ const INFO = {
 			title: "ERP Implementation for SME Clients",
 			description:
 				"Led and supported the deployment of Sage Intacct and Palladium ERP systems for small to medium-sized enterprises, including configuration, data migration, and end-user training. Improved operational efficiency by streamlining accounting and HR processes.",
-			logo: "sage.png",
+			logo: process.env.PUBLIC_URL + "sage.png",
 			linkText: "CyteERP Systems",
 			link: "",
 		},
@@ -48,7 +48,7 @@ const INFO = {
 			title: "Invoice Template designs Project",
 			description:
 				"Created and customized professional invoice templates for ERP systems, aligning them with client branding and ensuring compliance with accounting standards.",
-			logo: "erpnext.png",
+			logo: process.env.PUBLIC_URL + "erpnext.png",
 			linkText: "View Project",
 			link: "https://github.com/French-Vani11a/Invoice-templates-customisations.git",
 		},
@@ -57,7 +57,7 @@ const INFO = {
 			title: "Graphics Design Portfolio",
 			description:
 				"Designed logos, marketing materials, and business branding assets for various clients, delivering visually appealing and brand-consistent graphics.",
-			logo: "Adobe-PS.png",
+			logo: process.env.PUBLIC_URL + "Adobe-PS.png",
 			linkText: "View Project",
 			link: "https://github.com/French-Vani11a/Graphic-design-portfolio.git",
 		},
@@ -66,7 +66,7 @@ const INFO = {
 			title: "Open-Source React Portfolio Website",
 			description:
 				"Developed a personal portfolio site using React to showcase professional experience, skills, and certifications. Designed for responsiveness and performance, with clean code and reusable components.",
-			logo: "react.svg",
+			logo: process.env.PUBLIC_URL + "react.svg",
 			linkText: "View Project",
 			link: "https://github.com/French-Vani11a/Taonga-portfolio.git",
 		},
@@ -75,7 +75,7 @@ const INFO = {
 			title: "School Canteen Management System",
 			description:
 				"Developed a canteen management system as a school project to track meals, manage orders, and maintain inventory. The system allowed students to place orders efficiently and helped staff manage daily operations.",
-			logo: "react.svg",
+			logo: process.env.PUBLIC_URL + "react.svg",
 			linkText: "View Project",
 			link: "https://github.com/French-Vani11a/Canteen-Management-System.git",
 		},
