@@ -37,6 +37,7 @@ const About = () => {
 							<Logo width={46} />
 						</div>
 					</div>
+					
 
 					<div className="about-container">
 						<div className="about-main">
@@ -47,8 +48,29 @@ const About = () => {
 
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
+									
+									<ul>	
+									<h1 className="Skills-title"><strong>My Skills</strong></h1>
+									<li className="Skills">Programming & Web Technologies<ul>
+										<li>Python, C#, JavaScript, PHP</li>
+										<li>React.js, Django, SQL</li></ul> </li>
+										<li className="Skills">Professional Competencies<ul>
+										<li>Problem-Solving & Critical Thinking</li>
+										<li>Collaboration & Teamwork</li>
+										<li>Continuous Learning & Adaptability</li></ul> </li>
+										<li className="Skills"> ICT & Support Skills<ul>
+										<li>Troubleshooting & Infrastructure Support</li>
+										<li>End-User Training & Support</li></ul> </li>
+										<li className="Skills">Design & Customization<ul>
+										<li>Graphics Design (Adobe Illustrator, Photoshop)</li>
+										<li>Invoice Template Customization, Crystal Reports, Jinja Templates</li></ul> </li>
+
+									
+									</ul>
+								
 								</div>
 							</div>
+							
 
 							<div className="about-left-side">
 								<div className="about-image-container">
@@ -60,6 +82,7 @@ const About = () => {
 										/>
 									</div>
 								</div>
+								
 
 								<div className="about-socials">
 									<Socials />

@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
 	faTwitter,
 	faGithub,
@@ -83,6 +83,11 @@ const Socials = () => {
 						</div>
 
 						<div className="social-text">{INFO.main.email}</div>
+						<div className="social-icon">
+							<FontAwesomeIcon icon={faPhone} />
+						</div>
+
+						<div className="social-text">{INFO.main.phone}</div>
 					</a>
 				</div>
 			</div>

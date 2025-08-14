@@ -15,29 +15,25 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
+								src="./cyteerp.png"
 								alt="facebook"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">CyteERP Systems</div>
 							<div className="work-subtitle">
-								Software Engineer
+								   {" "} IT Technical Consultant
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2024 - 2025</div>
 						</div>
+						<ul>
+							<li>Provided end-user support for hardware and software troubleshooting.</li>
+							<li>Installed and configured computers, printers, and accounting systems.</li>
+							<li>Diagnosed and resolved software issues; ensured antivirus and system updates were current.</li>
+							<li>Implematation support and Customer Training for ERPs & other business software.</li>
+							<li>Offered technical standby during client training sessions and product rollouts.</li>
+							<li>Assisted with network setup and tested basic switch/router connectivity.</li>
+						</ul>
 
-						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
-						</div>
 					</div>
 				}
 			/>

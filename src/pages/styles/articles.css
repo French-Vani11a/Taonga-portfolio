@@ -27,10 +27,10 @@
 }
 
 .articles-wrapper {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	display: flex;
-	flex-direction: column;
+	display: flex;         /* Arrange children side-by-side */
+  gap: 50px;             /* Space between them */
+  flex-wrap: wrap;       /* Allow wrapping on smaller screens */
+  justify-content: center;
 }
 
 .articles-article {
@@ -44,9 +44,105 @@
 @media (max-width: 1024px) {
 	.articles-title {
 		width: 100% !important;
+		
 	}
 
 	.articles-subtitle {
 		width: 100% !important;
+		
 	}
 }
+
+.Certificates-container {
+  display: flex;           /* Arrange multiple certificate cards side by side */
+  flex-wrap: wrap;         /* Wrap to next row if needed */
+  gap: 20px;               /* Space between cards */
+  justify-content: center; /* Center the row */
+  padding: 5px;
+  background-color: rgb(231, 233, 241);
+  border-radius: 10%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+   box-shadow: 0 0 15px 3px rgba(0, 123, 255, 0.5); /* Persistent glow */
+  animation: glowPulse 2s infinite alternate;
+}
+
+.Certificates-wrapper {
+  display: inline-block;   /* Shrinks to fit image */
+  overflow: hidden;
+  border-radius: 0%;
+  text-align: center;
+}
+
+.Certificates-wrapper img {
+  display: block;
+  max-width: 100%;         /* Image won’t overflow container */
+  height: auto;            /* Maintains aspect ratio */
+  border-radius: 0%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.Certificates-wrapper {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 0%;
+  text-align: center;
+  max-width: 400px;   /* Limits the width of the certificate box */
+  width: 100%;         /* Allows scaling on smaller screens */
+  /*added after*/
+ cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+ 
+}
+
+.Certificates-wrapper img {
+  display: block;
+  width: 100%;         /* Fills the wrapper */
+  height: auto;        /* Keeps aspect ratio */
+  border-radius: 0%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/*new modal csss starting here*/
+/* Certificates card hover effect */
+
+
+.Certificates-wrapper:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Modal overlay for full-screen certificate */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+
+@keyframes glowPulse {
+  from {
+    box-shadow: 0 0 10px 2px rgba(0, 123, 255, 0.4);
+  }
+  to {
+    box-shadow: 0 0 25px 5px rgba(0, 123, 255, 0.7);
+  }
+}
+
+.articles-title {
+		text-align: center !important;
+		margin:auto !important;
+		
+	}
